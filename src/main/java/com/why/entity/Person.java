@@ -1,9 +1,11 @@
 package com.why.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by why on 2016/11/2.
  */
-public class Person {
+public class Person implements Serializable {
     /**
      * 唯一标识
      */
